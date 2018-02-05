@@ -13,6 +13,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        
+        let nextBtn = UIButton(frame: .zero)
+        nextBtn.setTitle("next page", for: .normal)
+        nextBtn.frame = CGRect(x: 100, y: 200, width: 50, height: 20)
+        view.addSubview(nextBtn)
     }
 
     override func didReceiveMemoryWarning() {
