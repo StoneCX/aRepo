@@ -21,6 +21,7 @@ class ViewController: UIViewController {
         view.addSubview(nextBtn)
         
         //this button for what?
+        //Again write a comment
     }
 
     override func didReceiveMemoryWarning() {
