@@ -19,6 +19,8 @@ class ViewController: UIViewController {
         nextBtn.setTitle("next page", for: .normal)
         nextBtn.frame = CGRect(x: 100, y: 200, width: 50, height: 20)
         view.addSubview(nextBtn)
+        
+        //this button for what?
     }
 
     override func didReceiveMemoryWarning() {
